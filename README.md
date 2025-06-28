@@ -52,11 +52,6 @@ Each quiz session is tracked with score, IQ rating, performance comment, and dat
 ## 🧑‍💻 Author
 
 **Syed Zain Ali Shah**  
-> 17 y/o passionate developer from Pakistan building fun, smart, and voice-powered games.
-
-🔗 [GitHub](https://github.com/zainshah3464)  
-📷 [Instagram](https://instagram.com/) *(add your link if public)*  
-📄 [Portfolio Website](https://zainshah3464.vercel.app) *(if available)*  
 
 ---
 
@@ -80,7 +75,7 @@ Zain-gaming-hub/
 
 ## 📸 Screenshots (Optional)
 
-![Reaction](Screenshots.jpg)
+![Reaction](.Screenshots.jpg)
 
 ---
 
