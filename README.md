@@ -1,3 +1,104 @@
+# 🎮 Zain's Gaming Hub
+
+A sleek and interactive multi-game platform built using **Next.js 15**, **Tailwind CSS**, and **Framer Motion**. Featuring real-time voice feedback, animations, sound effects, and user tracking — all crafted with passion by **Syed Zain Ali Shah**.
+
+---
+
+## 🚀 Live Demo  
+🌐 [zain-gaming-hub.vercel.app](https://zain-gaming-hub.vercel.app)
+
+---
+
+## 🎮 Games Included
+
+| Game | Description |
+|------|-------------|
+| ⚡ Reaction Speed Test | Measure your reflexes with increasing difficulty. |
+| 🎯 Tic Tac Toe | Play vs Player or AI with smart & funny voice comments. |
+| 🐦 Flappy Bird | Tap to flap and dodge pipes — includes roast feedback. |
+| 🧠 Ultimate IQ Quiz | 150+ IQ questions with emoji reactions and leaderboard. |
+
+---
+
+## 🏆 Leaderboard (in-app)
+
+Each quiz session is tracked with score, IQ rating, performance comment, and date. The leaderboard uses localStorage for persistence.
+
+---
+
+## 💡 Technologies Used
+
+- **Next.js 15 (App Router)**
+- **React** with `useState`, `useEffect`, `useRef`
+- **Tailwind CSS** for stylish dark UI
+- **Framer Motion** for animations
+- **speechSynthesis API** for voice
+- **LocalStorage** for leaderboard
+- **Google Analytics + Google Sheets** (tracking)
+
+---
+
+## 🧠 Features
+
+- 🎤 Voice feedback on all actions (start, win, lose, etc.)
+- 🔥 Glowing buttons & hover effects
+- 📊 Quiz game leaderboard
+- 🎯 Mode toggle (AI vs Player)
+- 📦 Fully responsive & mobile-friendly
+- 🎮 Game tracking (IP, session, date, etc.)
+
+---
+
+## 🧑‍💻 Author
+
+**Syed Zain Ali Shah**  
+> 17 y/o passionate developer from Pakistan building fun, smart, and voice-powered games.
+
+🔗 [GitHub](https://github.com/zainshah3464)  
+📷 [Instagram](https://instagram.com/) *(add your link if public)*  
+📄 [Portfolio Website](https://zainshah3464.vercel.app) *(if available)*  
+
+---
+
+## 📂 Folder Structure (Optional)
+
+Zain-gaming-hub/
+├── public/
+├── src/
+│ ├── app/
+│ ├── components/
+│ ├── games/
+│ └── utils/
+├── next.config.ts
+├── tsconfig.json
+├── README.md
+└── package.json
+
+
+
+---
+
+## 📸 Screenshots (Optional)
+
+![Reaction](Screenshots.jpg)
+
+---
+
+## 📜 License
+
+This project is open source under the [MIT License](LICENSE).
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
