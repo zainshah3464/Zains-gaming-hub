@@ -55,7 +55,7 @@ Each quiz session is tracked with score, IQ rating, performance comment, and dat
 
 ---
 
-## 📂 Folder Structure (Optional)
+## 📂 Folder Structure
 
 Zain-gaming-hub/
 ├── public/
@@ -73,9 +73,13 @@ Zain-gaming-hub/
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshot
 
-![Reaction](.Screenshots.jpg)
+![Screenshot](Screenshot.jpg)
+
+
+
+
 
 ---
 
