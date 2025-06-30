@@ -18,7 +18,29 @@ export const metadata: Metadata = {
   title: "Zain’s Gaming Hub 🎮",
   description: "Zain's epic gaming universe",
 };
-
+  openGraph: {
+    title: "Zain Shah — Developer",
+    description: "Explore my design + dev projects, all in one place.",
+    url: "https://zain-main-web.vercel.app/",
+    siteName: "Zain Shah",
+    images: [
+      {
+        url: "/photoshared.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Zain Shah",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Zain Shah",
+    description: "Creative Developer & Designer",
+    images: ["/photoshared.jpg"],
+  },
+}
 export default function RootLayout({
   children,
 }: Readonly<{
