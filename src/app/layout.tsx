@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
-import ClientTracker from "@/lib/tracking/ClientTracker"; // ✅ import here
+import ClientTracker from "@/lib/tracking/ClientTracker";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,8 +17,33 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Zain’s Gaming Hub 🎮",
   description: "Zain's epic gaming universe",
+  icons: {
+    icon: "/favicon-32x32.png",
+  },
+  openGraph: {
+    title: "Zain Shah — Developer",
+    description: "Explore my design + dev projects, all in one place.",
+    url: "https://zain-main-web.vercel.app/",
+    siteName: "Zain Shah",
+    images: [
+      {
+        url: "/photoshared.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Zain Shah",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Zain Shah",
+    description: "Creative Developer & Designer",
+    images: ["/photoshared.jpg"],
+  },
 };
- 
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -48,7 +73,7 @@ export default function RootLayout({
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
-        <ClientTracker /> {/* ✅ tracking component rendered here */}
+        <ClientTracker />
       </body>
     </html>
   );
